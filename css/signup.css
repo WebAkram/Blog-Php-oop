@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+   font-family: 'Poppins', sans-serif;
+   padding: 0;
+   margin: 0;
+}
+a {
+    text-decoration: none;
+  }
+  body {
+    background: -webkit-linear-gradient(bottom, #b701ff, #f1adfd);
+    background-repeat: no-repeat;
+  }
+  label {
+      font-weight: bold;
+    font-size: 15px;
+  }
+  #forgot-pass {
+    color: #b701ff;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 6px;
+    text-align: right;
+  }
+  #card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 430px;
+    margin: 6rem auto 8.1rem auto;
+    width: 500px;
+  }
+  #card-content {
+    padding: 12px 44px;
+  } 
+   h2{
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 25px rgb(249, 162, 218),
+    -10px 10px 25px rgb(247, 158, 234),
+    -10px -10px 25px rgb(252, 158, 230),
+    10px -10px 25px rgb(251, 162, 230);
+   }
+  #card-title {
+    letter-spacing: 3px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  #signup {
+    color: #bd2d8b;
+    font-size: 16px;
+    margin-top: 16px;
+    text-align: center;
+  }
+  #submit-btn {
+    background: -webkit-linear-gradient(right, #b701ff, #eda1fa);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #d577fa;
+    cursor: pointer;
+    font-weight: 550;
+    color: rgb(255, 255, 255);
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 6px;
+    transition: 0.15s;
+    width: 153px;
+  }
+  #submit-btn:hover {
+    box-shadow: 0px 1px 12px #c738ff;
+  }
+
+  .form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-border {
+    background: -webkit-linear-gradient(right, #b701ff, #f1adfd);
+    height: 1px;
+    margin-top: 1px;
+    padding: 1px;
+    width: 100%;
+  }
+  .form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+  }
+  .underline-title {
+    background: -webkit-linear-gradient(right, #b701ff, #f1adfd);
+    height: 2px;
+    margin: -0.4rem auto 0 auto;
+    width: 120px;
+  }
